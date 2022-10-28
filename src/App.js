@@ -1,6 +1,7 @@
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Header from "./components/Header"
+import { ThemeProvider } from "styled-components";
 
 const style = {
   color:{
@@ -14,11 +15,11 @@ const style = {
 
 const App = () => {
   return (
-    <>
+    <ThemeProvider>
       <Header/>
       <Card/>
       <Footer/>
-    </>
+    </ThemeProvider>
   );
 };
 
