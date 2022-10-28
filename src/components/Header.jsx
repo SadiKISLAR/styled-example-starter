@@ -1,20 +1,22 @@
 import React from 'react'
+import Button from './styles/Button.styled'
+import { Logo } from './styles/Header.styled'
 
 const Header = () => {
   return (
     <div>
         <div>
-            <img src="" alt="" />
+            <Logo src="../../public/images/logo.png" alt="" />
             <div>
-                <button>Apply Courses</button>
-                <button>Talk to Adviser</button>
+                <Button color="#A62440">Apply Courses</Button>
+                <Button bg="#A62440">Talk to Adviser</Button>
             </div>
         </div>
         <div>
             <div>
                 <h1></h1>
                 <p></p>
-                <button>Start Your New Carier</button>
+                <Button>Start Your New Carier</Button>
             </div>
             <img src="" alt="" />
         </div>

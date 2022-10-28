@@ -10,12 +10,14 @@ const style = {
     footer:"#8A1c4a"
   },
   margins:{},
+  "max-width":"1000px",
+  width:"95vw",
   responsive:{}
 }
 
 const App = () => {
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={style}>
       <Header/>
       <Card/>
       <Footer/>
